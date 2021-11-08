@@ -1,4 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
 * {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.intro {
+    text-align: center;
+    padding-top: 6em;
+}
+.intro__left {
+    float:left;
+    width: 50%;
+}
+
+.intro__right {
+    float:right;
+    width: 50%;
 }
 
