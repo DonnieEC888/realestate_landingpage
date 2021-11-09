@@ -6,15 +6,72 @@
 }
 .intro {
     text-align: center;
-    padding-top: 6em;
+    padding: 10em 4em;
+    overflow: hidden;
+    width:100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("/img/realestate.jpg") no-repeat center center fixed; 
+    background-size: cover;
 }
 .intro__left {
     float:left;
     width: 50%;
+    color: rgb(255,255,255);
+    padding-top: 35px;
 }
 
+.intro__left-name {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.intro__left-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 26px 0;
+    
+}
+
+.intro__left-subtitle {
+    font-size: 22px;
+}
 .intro__right {
     float:right;
     width: 50%;
+}
+
+.intro__right-form {
+    background: rgb(246, 246, 246);
+    width: 65%;
+    margin: 0 auto;
+    padding: 30px;
+    
+}
+
+.intro__right-heading {
+    font-size: 22px;
+    line-height: 1.4;
+    color: rgb(36,36,36);
+    margin-bottom: 10px;
+}
+
+
+.intro__right-textfield {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+   
+}
+
+.intro__right-button {
+    background: rgb(20,115,204);
+    border: none;
+    border-radius: 3px;
+    color: rgb(255,255,255);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 12px 25px;
+    margin-top: 10px;
+    text-align: center ;
 }
 
