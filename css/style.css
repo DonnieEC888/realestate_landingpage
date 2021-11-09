@@ -6,7 +6,7 @@
 }
 .intro {
     text-align: center;
-    padding: 10em 4em;
+    padding: 10em;
     overflow: hidden;
     width:100%;
     background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("/img/realestate.jpg") no-repeat center center fixed; 
@@ -17,22 +17,26 @@
     width: 50%;
     color: rgb(255,255,255);
     padding-top: 35px;
+    padding-left: 12px;
 }
 
 .intro__left-name {
     font-weight: 500;
     font-size: 20px;
+    text-align: left;
 }
 
 .intro__left-title {
     font-size: 36px;
     font-weight: 700;
     margin: 26px 0;
+    text-align: left;
     
 }
 
 .intro__left-subtitle {
     font-size: 22px;
+    text-align: left;
 }
 .intro__right {
     float:right;
