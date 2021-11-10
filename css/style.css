@@ -175,4 +175,70 @@
     line-height: 1.4;
 }
 
+.listing {
+    text-align: center;
+    padding: 50px;
+}
+
+.listing__title {
+    color: rgb(36, 36, 36);
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+}
+
+.listing__subtitle {
+    color: rgb(76, 76, 76);
+    font-size: 18px;
+}
+
+.listing__listings {
+    width: 100%;
+    margin-top: 70px;
+}
+
+.listing__home {
+    width: 33%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.listing__home-img {
+    width: 300px;
+    height: 200px;
+}
+
+.listing__home-title {
+    font-size: 24px;
+    color: rgb(36, 36, 36);
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.listing__home-price {
+    color: rgb(76, 76, 76);
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.listing__home-info {
+    color: rgb(76, 76, 76);
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.listing__home-link {
+    color:rgb(37, 150, 255);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+
+
+
 
