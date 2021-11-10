@@ -136,6 +136,43 @@
 
 .testimonial{
   background: rgb(242, 242, 242);
+  width: 100%;
+  padding: 40px;
 
 }
+
+.testimonial__testimony {
+    background: rgb(255,255,255);
+    width: 80%;
+    padding: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.testimonial__testimony-title {
+    color: rgb(36, 36, 36);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.testimonial__testimony-symbol {
+    width: 25px;
+}
+
+.testimonial__testimony-quote {
+    color: rgb(56, 56, 56);
+    font-size: 26px;
+    line-height: 1.2;
+    margin-top: 20px;
+}
+
+.testimonial__testimony-user {
+    color:rgb(46, 46, 46);
+    margin-top: 50px;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
 
