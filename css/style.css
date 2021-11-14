@@ -6,7 +6,7 @@
 }
 .intro {
     text-align: center;
-    padding: 10em;
+    padding: 6em;
     overflow: hidden;
     width:100%;
     background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("/img/realestate.jpg") no-repeat center center fixed; 
@@ -18,25 +18,26 @@
     color: rgb(255,255,255);
     padding-top: 35px;
     padding-left: 12px;
+    text-align: left;
 }
 
 .intro__left-name {
     font-weight: 500;
     font-size: 20px;
-    text-align: left;
+    
 }
 
 .intro__left-title {
     font-size: 36px;
     font-weight: 700;
     margin: 26px 0;
-    text-align: left;
+   
     
 }
 
 .intro__left-subtitle {
     font-size: 22px;
-    text-align: left;
+    
 }
 .intro__right {
     float:right;
@@ -73,8 +74,8 @@
     color: rgb(255,255,255);
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 14px;
-    padding: 12px 16px;
+    font-size: 12px;
+    padding: 12px 12px;
     margin-top: 5px;
     text-align: center ;
 }
@@ -337,7 +338,139 @@
 .footer__policy {
     color: rgb(122, 122, 122);
 }
+/* Tablet Screen */
+@media only screen and (max-width: 768px) {
+    .intro__left {
+        padding-top: 24px;
+    }
+    .intro__left-name {
+        font-size: 16px;
+    }
 
+    .intro__left-title {
+        font-size: 24px;
+    }
+
+    .intro__left-subtitle {
+        font-size: 18px;
+}
+    .intro__right-form {
+        width: 90%;
+        margin: 10px auto;
+        padding: 22px;
+    }
+    .intro__right-heading {
+        font-size: 14px;
+    }
+    .intro__right-button {
+        font-size: 9px;
+        padding: 10px;
+    }
+
+    .info__title {
+        font-size: 30px;
+    }
+
+    .info__subtext {
+        font-size: 15px;
+    }
+    .info__icons-icon-img {
+        width: 60px;
+        height: 60px;
+    }
+    .info__icons-icon-title {
+        font-size: 16px;
+    }
+    
+    .house-extra-margin {
+        margin-top: 12px;
+}
+    .homes-extra-margin {
+    margin-top: 14px;
+}
+
+    .testimonial__testimony-title {
+        font-size: 24px;
+    }
+    .testimonial__testimony-symbol {
+        width: 20px;
+    }
+    .testimonial__testimony-quote {
+        font-size: 22px;
+    }
+    .testimonial__testimony-user {
+        font-size: 16px;
+    }
+    .listing {
+        padding: 40px;
+    }
+    .listing__title {
+        font-size: 24px;
+        margin-top: 40px;
+    }
+    .listing__subtitle {
+        font-size: 14px;
+    }
+    .listing__home {
+        width: 32%;
+    }
+    .listing__home-img {
+        width: 200px;
+        height: 150px;
+    }
+    .listing__home-title {
+        font-size: 18px;
+    }
+    .listing__home-price {
+        font-size: 12px;
+    }
+    .listing__home-info {
+        font-size: 12px;
+    }
+    .listing__home-link {
+        font-size: 14px;
+    }
+    .form__title {
+        font-size: 36px;
+    }
+    .form__subtitle {
+        font-size: 18px;
+    }
+    .label {
+        font-size: 16px;
+    }
+    .form__button {
+        font-size: 12px;
+    }
+    .agent__left-img {
+        width: 300px;
+    }
+    .agent__right {
+        padding-top: 36px;
+        font-size: 16px;
+    }
+    .footer {
+        font-size: 14px;
+    }
+
+}
+
+/* Large Mobile */
+@media only screen and (max-width: 425px) {
+    .intro {
+        padding: 0;
+    }
+    .intro__left {
+        float: none;
+        width: 100%;
+    }
+
+    .intro__right {
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
 
 
 
